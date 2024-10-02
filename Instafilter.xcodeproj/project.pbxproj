@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		182432012C5DFA40006129DC /* InstafilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182432002C5DFA40006129DC /* InstafilterApp.swift */; };
-		182432032C5DFA40006129DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182432022C5DFA40006129DC /* ContentView.swift */; };
+		182432032C5DFA40006129DC /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182432022C5DFA40006129DC /* SliderView.swift */; };
 		182432052C5DFA41006129DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182432042C5DFA41006129DC /* Assets.xcassets */; };
 		182432082C5DFA41006129DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182432072C5DFA41006129DC /* Preview Assets.xcassets */; };
+		1824320F2C5E009E006129DC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824320E2C5E009E006129DC /* SwiftUIView.swift */; };
+		182432112C5E5C93006129DC /* CoreImageUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182432102C5E5C93006129DC /* CoreImageUI.swift */; };
+		182432352C653AC6006129DC /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182432342C653AC6006129DC /* PhotoPickerView.swift */; };
+		182432372C65EABA006129DC /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182432362C65EAB9006129DC /* ShareLinkView.swift */; };
+		182432392C65F220006129DC /* RequestReviewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182432382C65F220006129DC /* RequestReviewUI.swift */; };
+		1824323B2C65F567006129DC /* ContentUnavailableUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824323A2C65F567006129DC /* ContentUnavailableUI.swift */; };
+		1824323D2C67E1EE006129DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824323C2C67E1EE006129DC /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		182431FD2C5DFA40006129DC /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182432002C5DFA40006129DC /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
-		182432022C5DFA40006129DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		182432022C5DFA40006129DC /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		182432042C5DFA41006129DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182432072C5DFA41006129DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1824320E2C5E009E006129DC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		182432102C5E5C93006129DC /* CoreImageUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageUI.swift; sourceTree = "<group>"; };
+		182432342C653AC6006129DC /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		182432362C65EAB9006129DC /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
+		182432382C65F220006129DC /* RequestReviewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewUI.swift; sourceTree = "<group>"; };
+		1824323A2C65F567006129DC /* ContentUnavailableUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableUI.swift; sourceTree = "<group>"; };
+		1824323C2C67E1EE006129DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				182432002C5DFA40006129DC /* InstafilterApp.swift */,
-				182432022C5DFA40006129DC /* ContentView.swift */,
+				182432382C65F220006129DC /* RequestReviewUI.swift */,
+				182432022C5DFA40006129DC /* SliderView.swift */,
+				1824323C2C67E1EE006129DC /* ContentView.swift */,
+				1824320E2C5E009E006129DC /* SwiftUIView.swift */,
+				182432362C65EAB9006129DC /* ShareLinkView.swift */,
+				182432102C5E5C93006129DC /* CoreImageUI.swift */,
+				182432342C653AC6006129DC /* PhotoPickerView.swift */,
+				1824323A2C65F567006129DC /* ContentUnavailableUI.swift */,
 				182432042C5DFA41006129DC /* Assets.xcassets */,
 				182432062C5DFA41006129DC /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182432032C5DFA40006129DC /* ContentView.swift in Sources */,
+				1824323B2C65F567006129DC /* ContentUnavailableUI.swift in Sources */,
+				182432032C5DFA40006129DC /* SliderView.swift in Sources */,
+				182432392C65F220006129DC /* RequestReviewUI.swift in Sources */,
 				182432012C5DFA40006129DC /* InstafilterApp.swift in Sources */,
+				182432112C5E5C93006129DC /* CoreImageUI.swift in Sources */,
+				1824323D2C67E1EE006129DC /* ContentView.swift in Sources */,
+				182432352C653AC6006129DC /* PhotoPickerView.swift in Sources */,
+				182432372C65EABA006129DC /* ShareLinkView.swift in Sources */,
+				1824320F2C5E009E006129DC /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
